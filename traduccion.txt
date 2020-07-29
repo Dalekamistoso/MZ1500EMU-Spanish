@@ -1,0 +1,88 @@
+===================================================================================================
+==== TRADUCCION NO OFICIAL A ESPAÑOL DEL EMULADOR DE SHARP MZ-800/MZ-1500 MZ1500EMU POR DRWH0 =====
+===================================================================================================
+
+
+¿Que es este paquete?
+
+Este paquete es un conjunto de parches para traducir los principales menús de usuario del emulador
+de Sharp MZ-800/MZ-1500 "MZ1150EMU" a español ya que el mismo sólo se distribuye en inglés.
+
+Este emulador es básicamente la versión experimental de "MZ800EMU" pero con soporte de MZ-1500 
+actualmente se encuentra en desarrollo por lo que no está tan pulida
+
+¿Cómo aplico la traducción?
+
+Muy simple, debes hacer lo siguiente en este orden:
+
+
+REQUISITOS PREVIOS:
+===================
+
+1.- Bajar el emulador de aqui (actualmente está soportada la snapshot deñ 19-03-2019 rev 200):
+
+https://www.ordoz.com/mz800emu/snapshot-mz1500/2019-03-19_rev200/mz800emu-win32-snapshot-mz1500-1.0.4-rev_200.rar
+
+2.- Descargar las bios de sistema y descomprimirlas en el directorio raíz del emulador:
+
+Por razones de derechos de autor no puedo dar un link directo, pero puedes encontrarlas en multitud 
+de sitios en internet como por ejemplo archive.org 
+
+De todos modos tanto este como el MZ800EMU llevan unas pseudoBios integradas
+
+3.- Descargar y descomprimir Lunar IPS:
+
+https://fusoya.eludevisibility.org/lips/download/lips102.zip
+
+
+PROCESO DE PARCHEO:
+===================
+
+1.- Cargas Lunar IPS
+
+2.- Seleccionas "Apply IPS Patch"
+
+3.- Seleccionas el fichero .IPS en el directorio "1.- Parchear EXE" de esta traducción
+
+4.- Seleccionas en el desplegable a la derecha del campo de nombre de archivo "All files *.*"
+
+5.- Seleccionas el fichero "mz1500emu.exe" y aceptas
+
+6.- Copias y sobreescribe el contenido del interior de "2.- Copiar y sobreescribir" en el emulador
+
+7.- Listo
+
+
+BUGS Y LIMITACIONES:
+====================
+
+Algunos dialogos, especialmente en funciones de programación no están traducidos al estar en pleno
+desarrollo actualmente.
+
+Los logs GTK3/GLADE/CSS no se traducen por ser nativos de las runtimes incluidas.
+
+
+ELEMENTOS USADOS:
+=================
+
+SDL2     - https://www.libsdl.org/download-2.0.php 
+GTK3     - http://sourceforge.net/projects/gtk3win/
+GTK3 X64 - https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer
+ARTWORK  - https://www.countryflags.com/en/spain-flag-icon.html
+MZ800EMU - https://www.ordoz.com/mz800emu/
+
+
+CREDITOS:
+=========
+
+Emulador:   Michal Hucík - ORDOZ
+Traducción: Carlos R. - DrWh0
+
+
+LICENCIA:
+=========
+
+Esta traducción es de uso libre y gratuito con la misma licencia que el emulador que traduce.
+
+Todos los elementos utilizados están sujetos a los términos de licencia de cada uno de ellos.
+
